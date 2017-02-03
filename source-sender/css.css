@@ -1,0 +1,81 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(112, 146, 190, 0.7); /*can be anything, of course*/
+}
+
+#image-table{
+	
+	background-color: #369;
+	color: white;
+	border-radius:20px;
+	margin:20px;
+	border: 1px solid white;
+	
+}
+
+#image-table tr td{
+	border: 1px solid white;
+}
+
+body{
+	background: url("rage.jpg");
+/*	background-attachment: fixed; */
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position:fixed;
+}
+
+ /* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #369;
+}
+
+/* Float the list items side by side */
+ul.topnav li { 
+	 float: left; 
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+	font-family: Comic Sans MS;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #963;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
